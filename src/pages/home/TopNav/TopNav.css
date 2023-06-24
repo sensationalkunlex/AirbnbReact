@@ -1,0 +1,19 @@
+.nav-container {
+    border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+  }
+  .navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .active{
+    border-bottom: 1px solid rgb(237, 18, 18);
+  }
+  .navbar-brand{
+    padding: 3px 0px;
+  }
+  .navbar-toggler{
+    padding: 3px 0px;
+  }
+  .profile__img{
+    height: 28px;
+  }
