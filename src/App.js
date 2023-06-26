@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import Nav from './pages/home/TopNav/TopNav';
 import icon from './assets/icons/profile.png'
  

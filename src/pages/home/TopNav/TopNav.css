@@ -1,19 +1,38 @@
 .nav-container {
-    border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+    border-bottom: 2px solid rgba(17, 17, 17, 0.1);
+    padding: 16px 32px;
+   
   }
   .navbar{
-    padding-top: 0;
+    padding-top: 12px;
     padding-bottom: 0;
+    font-size: 14px;
+  }
+  .navbar-brand img{
+    height: 32px;
+  }
+  .navbar-nav{
+gap: 25px;
   }
   .active{
-    border-bottom: 1px solid rgb(237, 18, 18);
+    border-bottom: 3px solid rgb(237, 18, 18);
+  }
+  .nav-link{
+    padding: 16px 0px;
+    height: 64px;
   }
   .navbar-brand{
-    padding: 3px 0px;
+    padding: 0px 0px;
   }
   .navbar-toggler{
     padding: 3px 0px;
   }
   .profile__img{
-    height: 28px;
+    height: 45px;
   }
+  @media (min-width: 992px){
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 0;
+      padding-left: 0;
+  }
+}
