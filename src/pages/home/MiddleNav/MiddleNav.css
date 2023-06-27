@@ -1,0 +1,54 @@
+
+.framer{font-size: 12px;
+font-family: sans-serif;
+box-sizing: border-box;
+place-content: center space-between;
+align-items: center;
+background-color: rgb(255, 255, 255);
+display: flex;
+flex: 0 0 auto;
+flex-flow: row nowrap;
+height: 72px;
+overflow: visible;
+padding: 16px 32px;
+position: sticky;
+top: 0px;
+width: 100%;
+will-change: transform;
+z-index: 5;
+}
+.android .first-icon{
+height: 48px;
+}
+.android .second-icon{
+
+    height: 48px;
+    padding: 13px;
+    background-color:var(--ash-color);
+    border-radius: 9px;
+}
+.middle-filter select{
+    width: 115px;
+    height: 38px;
+    border: none;
+    background: var(--ash-color);
+    border-radius: 8px;
+    
+}
+input[type='text'], .date-icon{
+    height: 40px;
+    background: var(--ash-color);
+}
+input[type='text']{
+    border: none;
+    border-end-end-radius: 8px;
+    border-start-end-radius: 8px;
+    width: 95px;
+}
+.calendar{
+    height: 25px;
+}
+.date-icon{
+    border-start-start-radius: 8px;
+    border-end-start-radius: 8px;
+}
