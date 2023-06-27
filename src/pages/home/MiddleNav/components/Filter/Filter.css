@@ -1,0 +1,42 @@
+.filter-page{
+    min-height: 759px;
+ 
+    box-shadow: rgba(0, 0, 0, 0.12) -6px 0 40px;
+    overflow: auto;
+    padding: 24px 24px 120px;
+    position: fixed;
+    right: 0px;
+    top: 144px;
+    transform: perspective(1200px);
+    width: 400px;
+    place-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    bottom: 0px;
+    animation: slide 1s ;
+    z-index: 3;
+}
+
+.filter-page::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: #F5F5F5;
+  }
+  .filter-page::-webkit-scrollbar-thumb {
+    width: 0.5em;
+    background-color: #888;
+  }
+  
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.tab-close{
+    inset: 0px;
+    position: fixed;
+    user-select: none;
+    z-index: 1;
+}

@@ -16,4 +16,6 @@ code {
   --blue: #1e90ff;
   --white: #ffffff;
   --ash-color: #f3f3f2;
+  --border-radius:8px;
+  --red-color:rgb(255, 56, 92);
 }

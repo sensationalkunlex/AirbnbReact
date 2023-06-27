@@ -16,24 +16,35 @@ top: 0px;
 width: 100%;
 will-change: transform;
 z-index: 5;
+border-bottom: 1px solid  var(--ash-color);
 }
 .android .first-icon{
 height: 48px;
+z-index: 12;
 }
 .android .second-icon{
 
     height: 48px;
     padding: 13px;
     background-color:var(--ash-color);
-    border-radius: 9px;
+    border-end-end-radius: var(--border-radius);
+    border-start-end-radius: var(--border-radius);
+    position: absolute;
+    left: 76px;
 }
-.middle-filter select{
-    width: 115px;
+.middle-filter .select, .middle-filter .btn__guest{
+    width: 135px;
     height: 38px;
     border: none;
     background: var(--ash-color);
     border-radius: 8px;
     
+}
+.middle-filter select{
+    width: 125px;
+    height: 38px;
+    border: none;
+    background: var(--ash-color);
 }
 input[type='text'], .date-icon{
     height: 40px;
@@ -41,14 +52,37 @@ input[type='text'], .date-icon{
 }
 input[type='text']{
     border: none;
-    border-end-end-radius: 8px;
-    border-start-end-radius: 8px;
+    border-end-end-radius: var(--border-radius);
+    border-start-end-radius: var(--border-radius);
     width: 95px;
 }
 .calendar{
     height: 25px;
 }
 .date-icon{
-    border-start-start-radius: 8px;
-    border-end-start-radius: 8px;
+    border-start-start-radius: var(--border-radius);
+    border-end-start-radius: var(--border-radius);
+}
+.minus__btn, .plus__btn{
+    margin:0 6px;
+    font-size: 25px;
+    color: var( --red-color);
+    background: #ffffff;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+.filter-menu{
+    height: 40px;
+    width: 40px;
+    background: var(--ash-color);  
+    border-radius: var(--border-radius);
+}
+.filter-menu img{
+height: 20px;
 }
