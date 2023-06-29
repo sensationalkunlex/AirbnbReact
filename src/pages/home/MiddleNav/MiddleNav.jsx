@@ -5,7 +5,7 @@ import filter from "../../../assets/icons/filter.png";
 import calandar from "../../../assets/svg/calandar.svg";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Filter from "./components/Filter/Filter";
 
 export default function MiddleNav() {
@@ -13,14 +13,27 @@ export default function MiddleNav() {
   const [endDate, setEndDate] = useState(null);
   const [guest, setGuest] = useState(1);
   const [filterCheck, setFilterCheck] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
+  useEffect(() => {
+    console.log("isVisible", isVisible);
+    if (!isVisible) {
+      const timer = setTimeout(() => {
+        setFilterCheck((x) => isVisible);
+      }, 6000); // 60000 milliseconds = 1 minute
+
+      return () => clearTimeout(timer);
+    } else {
+      setFilterCheck((x) => isVisible);
+    }
+  }, [isVisible]);
   const onChange = (dates) => {
     const [start, end] = dates;
     setStartDate(start);
     setEndDate(end);
   };
   function filterAction() {
-    setFilterCheck((x) => !x);
+    setIsVisible((x) => !x);
   }
 
   function updateGuest(check) {
@@ -74,7 +87,7 @@ export default function MiddleNav() {
           <img src={filter} alt={"Filter"} onClick={filterAction} />
         </div>
       </div>
-      {filterCheck && <Filter close={filterAction} />}
+      {filterCheck && <Filter close={filterAction} filterCheck={!isVisible} />}
     </div>
   );
 }
