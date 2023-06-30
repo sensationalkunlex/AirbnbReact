@@ -13,10 +13,10 @@
     align-items: flex-start;
     background-color: rgb(255, 255, 255);
     bottom: 0px;
-    
-    z-index: 3;
+    z-index: 4;
     height: 100%;
 }
+
 .slide-in{
     animation: slide 1s ;
 }

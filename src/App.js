@@ -11,7 +11,7 @@ function App() {
     <div className="App">
      <Nav icon={icon}/>
      <MiddleNav/>
-   <div className="d-flex">
+   <div className="d-flex main-area">
 <div className="side-page">
 <Sidebar/>
 </div>

@@ -15,11 +15,15 @@ position: sticky;
 top: 0px;
 width: 100%;
 will-change: transform;
-z-index: 5;
+z-index: 3;
 border-bottom: 1px solid  var(--ash-color);
 }
+
 .middle-nav{
     font-size: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .android .first-icon{
 height: 48px;

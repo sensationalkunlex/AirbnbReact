@@ -114,7 +114,7 @@ export default function Filter(props) {
           props.filterCheck ? " slide-out" : "slide-in"
         } d-flex justify-content-center align-items-center`}
       >
-        <button className="btn w-75 round-btn-white">Show 836 Homes</button>
+        <button className="btn w-50 round-btn-white">Show 836 Homes</button>
       </div>
     </div>
   );

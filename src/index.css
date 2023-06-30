@@ -7,6 +7,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  overflow: hidden;
+}
+.App {
+  height: 100vh;
+  overflow-y: scroll;
+  /* padding-right: 17px; Adjust this value to account for the scrollbar width */
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

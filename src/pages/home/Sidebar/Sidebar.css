@@ -9,6 +9,72 @@
     font-size: 11px;
     /* gap:3px */
 }
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px) {
+.sidebar{
+    flex-direction: row !important;
+
+    border-right: none;
+    border-bottom: 1px solid #a2a2a2;
+    width: 100% !important;
+
+}
+.navbar-nav{
+    display: none;
+}
+.remove-scroll
+{
+    padding: 12px !important;
+}
+.active-right{
+    border-right:none !important;
+    border-bottom: var(--red-color) 2px solid;
+}
+.main-area{
+    width: 100% !important;  
+    flex-direction: column !important; 
+}
+.menu-text{
+    display: none;
+}
+.nav-container {
+    border-bottom: 1px solid var(--ash-color);
+    padding: 16px 12px;
+}
+.filter-page{
+    top: 165px;
+    width: 100%;
+  }
+  .filter-bottom{
+    width: 100%;
+  }
+  .nav-container {
+    border-bottom: 1px solid var(--ash-color);;
+    padding: 12px !important;
+   
+  }
+  .framer{
+    padding: 12px !important;
+  }
+  .android .second-icon {
+    left: 57px;
+  }
+  .side-page{
+    position: sticky;
+    top: 72px;
+    z-index: 2;
+    background: white;
+  }
+  .middle-filter{
+   display: none !important;
+  }
+  .middle-nav{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+}
 .sidebar{
     width: 50px;
 }
