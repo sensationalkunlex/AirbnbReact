@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Filter.css";
 export default function Filter(props) {
-  const [btns, setBtns] = useState(["Any", "1", "2", "3", "4", "5+"]);
+  const [btns] = useState(["Any", "1", "2", "3", "4", "5+"]);
 
   const allButtons = btns.map((x) => (
     <div key={x}>
@@ -25,7 +25,7 @@ export default function Filter(props) {
       ></div>
       <div
         className={`filter-page ${
-          props.filterCheck ? "slide-in" : "slide-out"
+          props.filterCheck ? "slide-out" : "slide-in"
         }`}
       >
         <div className="d-flex justify-content-between mt-3 mb-4">
@@ -111,7 +111,7 @@ export default function Filter(props) {
       </div>
       <div
         className={`filter-bottom ${
-          props.filterCheck ? " slide-in" : "slide-out"
+          props.filterCheck ? " slide-out" : "slide-in"
         } d-flex justify-content-center align-items-center`}
       >
         <button className="btn w-75 round-btn-white">Show 836 Homes</button>

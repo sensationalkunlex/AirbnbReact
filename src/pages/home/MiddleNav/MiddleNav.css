@@ -18,6 +18,9 @@ will-change: transform;
 z-index: 5;
 border-bottom: 1px solid  var(--ash-color);
 }
+.middle-nav{
+    font-size: 10px;
+}
 .android .first-icon{
 height: 48px;
 z-index: 12;

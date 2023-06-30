@@ -17,16 +17,18 @@ export default function MiddleNav() {
 
   useEffect(() => {
     console.log("isVisible", isVisible);
+
     if (!isVisible) {
       const timer = setTimeout(() => {
         setFilterCheck((x) => isVisible);
-      }, 6000); // 60000 milliseconds = 1 minute
+        console.log("filterCheck", filterCheck);
+      }, 600); // 60000 milliseconds = 1 minute
 
       return () => clearTimeout(timer);
     } else {
       setFilterCheck((x) => isVisible);
     }
-  }, [isVisible]);
+  }, [isVisible, filterCheck]);
   const onChange = (dates) => {
     const [start, end] = dates;
     setStartDate(start);
@@ -44,7 +46,7 @@ export default function MiddleNav() {
       : setGuest((x) => 1);
   }
   return (
-    <div className="">
+    <div className="middle-nav">
       <div className="framer">
         <div className="android d-flex gx-3 align-items-center">
           <img src={logo1} className="first-icon" alt={"logo"} />
@@ -73,7 +75,7 @@ export default function MiddleNav() {
               dateFormat="MMM dd"
             />
           </div>
-          <div className="d-flex align-items-center btn__guest">
+          <div className="d-flex align-items-center justify-content-between btn__guest">
             <button className="minus__btn" onClick={() => updateGuest(false)}>
               -
             </button>

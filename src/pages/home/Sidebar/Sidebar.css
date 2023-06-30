@@ -1,0 +1,24 @@
+.menu-icon{
+    height: 37px;
+    padding:8px 8px 8px 12px; 
+}
+.sidebar{
+    padding-top: 12px;
+    border-right: 1px solid #a2a2a2;
+    height: 100%;
+    font-size: 11px;
+    /* gap:3px */
+}
+.sidebar{
+    width: 50px;
+}
+.sidebar:hover{
+   
+    width: 150px;
+}
+.menu:hover{
+    background: var(--ash-color);
+}
+.active-right{
+    border-right: var(--red-color) 2px solid;
+}

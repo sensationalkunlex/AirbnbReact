@@ -1,0 +1,80 @@
+[
+    {
+      "imageUrl": "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-homepage-gallery-2-1.png",
+      "name": "James Chamber",
+      "price": 1500000,
+      "rating": 4.5,
+      "address": "123 Main St, New York, NY, 10001"
+    },
+    {
+      "imageUrl": "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-homepage-gallery-6.jpg",
+      "name": "House 1",
+      "price": 500000,
+      "rating": 3.8,
+      "address": "456 Elm St, Los Angeles, CA, 90001"
+    },
+    {
+      "imageUrl": "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-homepage-gallery-9.jpg",
+      "name": "House 2",
+      "price": 800000,
+      "rating": 4.2,
+      "address": "789 Oak Ave, Chicago, IL, 60601"
+    },
+    {
+      "imageUrl": "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-homepage-gallery-8.jpg",
+      "name": "House 3",
+      "price": 1200000,
+      "rating": 4.9,
+      "address": "321 Pine Rd, Houston, TX, 77001"
+    },
+    {
+      "imageUrl": "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-homepage-gallery-7.jpg",
+      "name": "House 4",
+      "price": 950000,
+      "rating": 4.1,
+      "address": "654 Cedar Ln, Miami, FL, 33101"
+    },
+    {
+      "imageUrl": "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-homepage-gallery-5.jpg",
+      "name": "House 5",
+      "price": 700000,
+      "rating": 4.3,
+      "address": "987 Birch Blvd, San Francisco, CA, 94101"
+    },
+    {
+      "imageUrl": "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-homepage-gallery-4.jpg",
+      "name": "House 6",
+      "price": 600000,
+      "rating": 4.6,
+      "address": "159 Willow Dr, Seattle, WA, 98101"
+    },
+    {
+      "imageUrl": "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-homepage-gallery-3.jpg",
+      "name": "House 7",
+      "price": 900000,
+      "rating": 4.4,
+      "address": "852 Maple Ave, Boston, MA, 02101"
+    },
+    {
+      "imageUrl": "https://framerusercontent.com/images/TQv9Req7ZME40dmudtRtkwz9lcQ.webp",
+      "name": "House 13",
+      "price": 550000,
+      "rating": 4.0,
+      "address": "963 Cherry St, Atlanta, GA, 30301"
+    },
+    {
+      "imageUrl": "https://images.adsttc.com/media/images/6495/b86d/5921/184d/45bd/2cd8/newsletter/mendels-greenhouse-chybik-plus-kristof_2.jpg",
+      "name": "House 14",
+      "price": 1800000,
+      "rating": 4.8,
+      "address": "741 Oakwood Rd, Dallas, TX, 75201"
+    },
+    {
+      "imageUrl": "https://cdn.houseplansservices.com/product/mmqhkmsc9v7e230sstq0g0i3cb/w800x533.jpg?v=2",
+      "name": "House 15",
+      "price": 1000000,
+      "rating": 4.7,
+      "address": "369 Pineapple Ln, Denver, CO, 80201"
+    }
+  ]
+  
